@@ -80,7 +80,7 @@ Scripts adicionais podem ser adicionados no arquivo `assets/js/script.js` para m
 
 1. Faça o download do tema ou clone o repositório:
    ```bash
-   git clone https://github.com/seu-usuario/cat-api.git
+   git clone https://github.com/rafaelferreira2312/tema-wordpress-cat-api
    ```
 2. Faça o upload da pasta do tema para o diretório `wp-content/themes/` do seu site WordPress.
 3. Acesse o painel administrativo do WordPress.
