@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="screeenshot.png" alt="imagem do projeto" width="300">
+</p>
+
 # WordPress Cat API
 
 Este é um tema WordPress personalizado, desenvolvido para integrar com a API [TheCatAPI](https://thecatapi.com). Ele permite que os usuários pesquisem e visualizem informações sobre raças de gatos, adicionem raças aos favoritos e gerenciem uma lista de favoritos. O projeto foi criado com foco em simplicidade, sem o uso de page builders ou frameworks adicionais.
