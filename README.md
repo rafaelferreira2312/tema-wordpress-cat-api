@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="screeenshot.png" alt="imagem do projeto" width="300">
+  <img src="https://github.com/rafaelferreira2312/tema-wordpress-cat-api/blob/main/screenshot.png" alt="imagem do projeto" width="300">
 </p>
 
 # WordPress Cat API
