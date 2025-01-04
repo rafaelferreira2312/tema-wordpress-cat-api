@@ -82,10 +82,7 @@ Scripts adicionais podem ser adicionados no arquivo `assets/js/script.js` para m
 
 ## Como Instalar
 
-1. Faça o download do tema ou clone o repositório:
-   ```bash
-   git clone https://github.com/rafaelferreira2312/tema-wordpress-cat-api
-   ```
+1. Faça o download do tema ou clone o repositório.
 2. Faça o upload da pasta do tema para o diretório `wp-content/themes/` do seu site WordPress.
 3. Acesse o painel administrativo do WordPress.
 4. Vá para **Aparência > Temas** e ative o tema "Cat API".
