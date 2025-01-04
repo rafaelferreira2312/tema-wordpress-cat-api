@@ -1,0 +1,130 @@
+/* style.css */
+
+/*
+Theme Name: Cat API
+Theme URI: https://thecatapi.com/.
+Author: Rafael Ferreira da Silva.
+Author URI: https://rafaelferreiradasilva.com.br
+Description: Tema para integrar com a API TheCatAPI.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: cat-api
+*/
+
+/* General Reset */
+body, h1, h2, h3, p, ul, li, a, button, input {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+/* Header Styles */
+header {
+    background-color: #7d71b4;
+    padding: 1rem;
+}
+header nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Main Content */
+main {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 1rem;
+    text-align: center;
+}
+main h1 {
+    color: #7d71b4;
+    margin-bottom: 1.5rem;
+}
+
+/* Search Bar */
+.search-bar {
+    margin-bottom: 2rem;
+}
+.search-bar input {
+    padding: 0.5rem;
+    width: 70%;
+    max-width: 400px;
+    border: 2px solid #7d71b4;
+    border-radius: 5px;
+    outline: none;
+}
+.search-bar button {
+    padding: 0.5rem 1rem;
+    margin-left: 0.5rem;
+    background-color: #7d71b4;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* Cat Grid */
+.cat-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+}
+.cat-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.cat-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+.cat-card h2 {
+    color: #544dba;
+    margin: 0.5rem 0;
+}
+.cat-card p {
+    padding: 0 1rem;
+    color: #555;
+    font-size: 0.9rem;
+}
+.cat-card button {
+    margin: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #9a94cd;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* Pagination */
+.pagination {
+    margin: 2rem 0;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+.pagination button {
+    padding: 0.5rem 1rem;
+    background-color: #544dba;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
